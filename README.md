@@ -1,2 +1,8 @@
-# TS-BoilerPlate
-Simple boilerPlate to develop TypeScript NodeJs or Web app
+#TypeScript App BoilerPlate
+
+## Install
+
+```shell
+npm install
+tsd install
+```

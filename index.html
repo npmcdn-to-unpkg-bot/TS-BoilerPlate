@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>TS App</title>
+    <script src="https://npmcdn.com/systemjs@0.19.34/dist/system.js"></script>
+</head>
+
+<body>
+    <h1>TS App</h1>
+</body>
+
+<script>
+    System.config({
+        packages:{
+            "dist":{
+              "defaultExtension": "js",
+              "main": "main" 
+            },
+            "rxjs":{
+              "defaultExtension": "js"
+            }
+        },
+        map:{
+            "rxjs": "node_modules/rxjs",
+            "symbol-observable": "node_modules/rxjs/observable",
+            "consoleUtils": "utils/consoleUtils"
+         }
+    });
+
+    System.import("dist");
+</script>
+
+</html>

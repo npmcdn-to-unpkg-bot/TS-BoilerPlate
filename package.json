@@ -1,0 +1,18 @@
+{
+  "name": "ts-boilerplate",
+  "version": "1.0.0",
+  "description": "Typescript boilerplate",
+  "main": "main.js",
+  "devDependencies": {
+    "rxjs": "^5.0.0-beta.10"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@el2604.bc:s1m0ne/TS-BoilerPlate.git"
+  },
+  "author": "Simone",
+  "license": "ISC"
+}
